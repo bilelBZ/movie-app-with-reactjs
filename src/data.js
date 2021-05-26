@@ -1,6 +1,6 @@
 export const moviedata = [
   {
-    id: Math.random(),
+    id: 0,
     title: "peaky blinders",
     posterUrl: "//pbs.twimg.com/media/ETAoYTMXgAA01qD.jpg",
     rate: 4,
@@ -9,7 +9,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/oVzVdvGIC7U",
   },
   {
-    id: Math.random(),
+    id: 1,
     title: "Game of thrones",
     posterUrl:
       "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2015%2F11%2Fjs20-20tease.jpeg",
@@ -19,7 +19,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/gcTkNV5Vg1E",
   },
   {
-    id: Math.random(),
+    id: 2,
     title: "The good doctor",
     posterUrl: "https://pbs.twimg.com/media/EbNkkiTXsAc2o3Y.jpg",
     rate: 4.2,
@@ -28,7 +28,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/msJggy8xtmI",
   },
   {
-    id: Math.random(),
+    id: 3,
     title: "Breaking bad",
     posterUrl:
       "https://image.tmdb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
@@ -38,7 +38,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/lrcqbavlbyQ",
   },
   {
-    id: Math.random(),
+    id: 4,
     title: "Prison Break",
     posterUrl:
       "https://upload.wikimedia.org/wikipedia/en/5/54/Prison-break-season-4-dvd.jpg",
@@ -48,7 +48,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/AL9zLctDJaU",
   },
   {
-    id: Math.random(),
+    id: 5,
     title: "Gangs of London",
     posterUrl:
       "https://m.media-amazon.com/images/M/MV5BOGJlZTE0MTQtZDdmMS00YWViLThlMDktYzk1N2RhMjY0NGEyXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
@@ -58,7 +58,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/4CJ5p4XisHs",
   },
   {
-    id: Math.random(),
+    id: 6,
     title: "Taboo",
     posterUrl:
       "https://images-na.ssl-images-amazon.com/images/I/81BbPS82fnL._AC_SL1500_.jpg",
@@ -68,7 +68,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/W1fiijqrKuc",
   },
   {
-    id: Math.random(),
+    id: 7,
     title: "Lethal Weapon",
     posterUrl:
       "https://vignette.wikia.nocookie.net/lethalweapon/images/2/2e/Lethal_Weapon_TV_series_poster.jpg/revision/latest/scale-to-width-down/340?cb=20160819024657",
@@ -78,7 +78,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/wN8h4-oyAbo",
   },
   {
-    id: Math.random(),
+    id: 8,
     title: "Dexter",
     posterUrl:
       "https://images-na.ssl-images-amazon.com/images/I/81JKXT1j0OL._SL1500_.jpg",
@@ -88,7 +88,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/YQeUmSD1c3g",
   },
   {
-    id: Math.random(),
+    id: 9,
     title: "Black Sails",
     posterUrl:
       "https://m.media-amazon.com/images/M/MV5BZmExNzU1M2YtNGUzOC00MmM0LWEwYzYtZWJiYjYxNDcwY2E0XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
@@ -98,7 +98,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/rT2Y5jjBNpQ",
   },
   {
-    id: Math.random(),
+    id: 10,
     title: "Black List",
     posterUrl:
       "https://i2.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2018/11/203AD589-D9BC-4842-BE7A-3FAC786F49EA.jpeg?fit=750%2C947&ssl=1",
@@ -108,7 +108,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/XihA6GWIBdM",
   },
   {
-    id: Math.random(),
+    id: 11,
     title: "The Walking deads",
     posterUrl:
       "https://fr.web.img2.acsta.net/c_216_288/medias/nmedia/18/78/35/82/20303823.jpg",
@@ -118,7 +118,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/sfAc2U20uyg",
   },
   {
-    id: Math.random(),
+    id:12,
     title: "Vis A Vis",
     posterUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1DBIEAneCfzyHa1-xYPa2oMCulo6mken_9Q&usqp=CAU",
@@ -128,7 +128,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/ceNKwOvSVm8",
   },
   {
-    id: Math.random(),
+    id: 13,
     title: "Cukur",
     posterUrl:
       "https://imgr.cineserie.com/2018/10/1129749.jpg?imgeng=/f_jpg/cmpr_0/w_744/h_1200/m_cropbox&ver=1",
@@ -138,7 +138,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/Ix43lQOjLGw",
   },
   {
-    id: Math.random(),
+    id: 14,
     title: "See",
     posterUrl:
       "https://fr.web.img6.acsta.net/pictures/19/09/10/20/30/1507616.jpg",
@@ -148,7 +148,7 @@ export const moviedata = [
     trailer: "https://www.youtube.com/embed/7Rg0y7NT1gU",
   },
   {
-    id: Math.random(),
+    id: 15,
     title: "SHERLOCK",
     posterUrl:
       "https://images-na.ssl-images-amazon.com/images/I/51j90UOkX-L.jpg",

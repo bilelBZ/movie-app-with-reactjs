@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import ReactStars from "react-rating-stars-component";
+import {Link} from 'react-router-dom'
 
 const MovieCard = ({ movie }) => {
   return (
@@ -24,7 +25,7 @@ const MovieCard = ({ movie }) => {
               activeColor="#ffd700"
             />
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Link to={`/MovieCardDetails/${movie.id}`}><Button variant="primary">Description <br/> and Trailer </Button></Link>
         </Card.Body>
       </Card>
     </div>

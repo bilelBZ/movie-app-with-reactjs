@@ -5,6 +5,8 @@ import AddMovie from "./components/AddMovie/AddMovie";
 import Filter from "./components/filter/Filter";
 import MovieList from "./components/movielist/MovieList";
 import { useState } from "react";
+import {  BrowserRouter as Router, Route} from "react-router-dom";
+import MovieCardDetails from "./components/movieCardDetails/MovieCardDetails";
 
 function App() {
   const [movielist, setMovielist] = useState(moviedata);
@@ -21,16 +23,22 @@ function App() {
   }
   
   return (
-    <div className="App">
+    
+      <Router>
       <Filter handleChange={handleChange} title={title} ratingChanged={ratingChanged} />
-      <MovieList
+      <Route path='/' exact render={ () => <MovieList
         movielist={movielist.filter((movie) =>
           movie.title.trim().toLowerCase().includes(title.trim().toLowerCase()) && movie.rate>=rate
         )}
-      />
+      />} />
+
       <AddMovie handleAdd = {handleAdd} />
-    </div>
+      <Route path='/MovieCardDetails/:id' render={(props)=> <MovieCardDetails {...props} movieList={movielist} exact/>}
+      />
+      </Router>
+    
   );
 }
+
 
 export default App;
